@@ -31,20 +31,6 @@ public class Main {
             System.out.println("match: " + match(expected, output));
             System.out.println();
         }
-
-        System.out.println("Test Case 1:");
-        Solution solution1 = new Solution();
-        int[] nums1 = {2, 7, 11, 15};
-        int target1 = 9;
-        int[] expected1 = {0, 1};
-        System.out.println("input:");
-        print(nums1);
-        System.out.println("output:");
-        int[] output1 = solution1.twoSum(nums1, target1);
-        print(output1);
-        System.out.println("expected:");
-        print(expected1);
-        System.out.println("match: " + match(expected1, output1));
     }
 
     private static boolean match(int[] a, int[] b) {
