@@ -54,23 +54,25 @@ public class Main {
         if (arr == null || arr.length == 0) {
             return null;
         }
-        TreeNode[] nodes = new TreeNode[arr.length];
-        nodes[0] = new TreeNode(arr[0]);
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] == null) {
-                continue;
+        Queue<TreeNode> queue = new LinkedList<>();
+        TreeNode root = new TreeNode(arr[0]);
+        queue.add(root);
+        int i = 1;
+        while (i < arr.length && !queue.isEmpty()) {
+            TreeNode parent = queue.poll();
+            if (arr[i] != null) {
+                parent.left = new TreeNode(arr[i]);
+                queue.add(parent.left);
             }
+            i++;
 
-            TreeNode parent = nodes[((i + 1) / 2) - 1];
-            nodes[i] = new TreeNode(arr[i]);
-            if (i % 2 == 1) {
-                parent.left = nodes[i];
-            } else {
-                parent.right = nodes[i];
+            if (arr[i] != null) {
+                parent.right = new TreeNode(arr[i]);
+                queue.add(parent.right);
             }
+            i++;
         }
-
-        return nodes[0];
+        return root;
     }
 
     private static Integer[] convertFromTreeNode(TreeNode root) {
