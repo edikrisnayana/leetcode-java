@@ -1,0 +1,16 @@
+rootProject.name = 'leetcode-java'
+
+// Automatically include all directories as modules
+def moduleDirs = new File(rootDir, '.').listFiles().findAll {
+    it.isDirectory() &&
+            it.name != 'out' &&
+            it.name != 'build' &&
+            it.name != '.gradle' &&
+            it.name != 'gradle' &&
+            it.name != '.git' &&
+            !it.name.startsWith('.')
+}
+
+moduleDirs.each { dir ->
+    include dir.name
+}

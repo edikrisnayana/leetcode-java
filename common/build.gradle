@@ -1,0 +1,3 @@
+dependencies {
+    // Common module doesn't need external dependencies
+}
