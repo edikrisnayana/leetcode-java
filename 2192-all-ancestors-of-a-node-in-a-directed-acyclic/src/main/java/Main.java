@@ -30,7 +30,7 @@ public class Main {
       ListUtils.print2D(output);
       System.out.print("expected: ");
       ListUtils.print2D(expected);
-      System.out.println("match: " + ListUtils.match(output, expected));
+      System.out.println("match: " + ListUtils.match2D(output, expected));
       System.out.println();
     }
   }

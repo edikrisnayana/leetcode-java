@@ -83,7 +83,7 @@ public class ListUtils {
   /**
    * Checks if two List 2D contain the same elements
    */
-  public static <T extends Comparable<T>> boolean match(List<List<T>> lists1, List<List<T>> lists2) {
+  public static <T extends Comparable<T>> boolean match2D(List<List<T>> lists1, List<List<T>> lists2) {
     if (lists1.size() != lists2.size()) {
       return false;
     }
@@ -91,14 +91,26 @@ public class ListUtils {
     for (int i = 0; i < lists1.size(); i++) {
       List<T> list1 = lists1.get(i);
       List<T> list2 = lists2.get(i);
-      if (list1.size() != list2.size()) {
+      boolean match = match(list1, list2);
+      if (!match) {
         return false;
       }
+    }
 
-      for (int j = 0; j < list1.size(); j++) {
-        if (!Objects.equals(list1.get(j), list2.get(j))) {
-          return false;
-        }
+    return true;
+  }
+
+  /**
+   * Checks if two List contain the same elements
+   */
+  public static <T extends Comparable<T>> boolean match(List<T> list1, List<T> list2) {
+    if (list1.size() != list2.size()) {
+      return false;
+    }
+
+    for (int j = 0; j < list1.size(); j++) {
+      if (!Objects.equals(list1.get(j), list2.get(j))) {
+        return false;
       }
     }
 
