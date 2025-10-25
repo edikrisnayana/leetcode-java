@@ -49,6 +49,7 @@ This repository contains Java solutions for various LeetCode problems. Each prob
 - [1636. Sort Array by Increasing Frequency](./1636-sort-array-by-increasing-frequency/)
 - [1684. Count the Number of Consistent Strings](./1684-count-the-number-of-consistent-strings/)
 - [1701. Average Waiting Time](./1701-average-waiting-time/)
+- [1716. Calculate Money in Leetcode Bank](./1716-calculate-money-in-leetcode-bank/)
 - [1791. Find Center of Star Graph](./1791-find-center-of-star-graph/)
 - [1823. Find the Winner of the Circular Game](./1823-find-the-winner-of-the-circular-game/)
 - [1894. Find the Student that Will Replace the Chalk](./1894-find-the-student-that-will-replace-the-chalk/)
