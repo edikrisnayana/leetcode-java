@@ -6,12 +6,15 @@ This repository contains Java solutions for various LeetCode problems. Each prob
 
 - [2. Two Sum](./2-two-sum/)
 - [75. Sort Colors](./75-sort-colors/)
+- [89. Gray Code](./89-gray-code/)
 - [273. Integer to English Words](./273-integer-to-english-words/)
 - [303. Range Sum Query - Immutable](./303-range-sum-query-immutable/)
 - [320. Generalized Abbreviation](./320-generalized-abbreviation/)
 - [330. Patching Array](./330-patching-array/)
 - [350. Intersection of Two Arrays II](./350-intersection-of-two-arrays-II/)
 - [383. Ransom Note](./383-ransom-note/)
+- [389. Find the Difference](./389-find-the-difference/)
+- [401. Binary Watch](./401-binary-watch/)
 - [476. Number Complement](./476-number-complement/)
 - [592. Fraction Addition and Subtraction](./592-fraction-addition-subtraction/)
 - [624. Maximum Distance in Arrays](./624-maximum-distance-in-arrays/)
@@ -73,6 +76,7 @@ This repository contains Java solutions for various LeetCode problems. Each prob
 - [2807. Insert Greatest Common Divisors in Linked List](./2807-insert-greatest-common-divisors-in-linked-list/)
 - [3016. Minimum Number of Pushes to Type Word II](./3016-minimum-number-of-pushes-to-type-word-ii/)
 - [3217. Delete Nodes From Linked List Present in Array](./3217-delete-nodes-from-linked-list-present-in-array/)
+- [3461. Check if Digits Are Equal in String After Operations I](./3461-check-if-digits-are-equal-in-string-after-operations-i/)
 
 ## Getting Started
 
