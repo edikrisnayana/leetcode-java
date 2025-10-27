@@ -61,6 +61,7 @@ This repository contains Java solutions for various LeetCode problems. Each prob
 - [2037. Minimum Number of Moves to Seat Everyone](./2037-minimum-numbers-of-moves-to-seat-everyone/)
 - [2053. Kth Distinct String in an Array](./2053-kth-distinct-string-in-an-array/)
 - [2058. Find the Minimum and Maximum Number of Nodes Between Critical Points](./2058-find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+- [2125. Number of Laser Beams in a Bank](./2125-number-of-laser-beams-in-a-bank/)
 - [2181. Merge Nodes in Between Zeros](./2181-merge-nodes-in-between-zeros/)
 - [2191. Sort the Jumbled Numbers](./2191-sort-the-jumbled-numbers/)
 - [2192. All Ancestors of a Node in a Directed Acyclic Graph](./2192-all-ancestors-of-a-node-in-a-directed-acyclic/)
