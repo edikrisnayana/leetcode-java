@@ -15,6 +15,7 @@ This repository contains Java solutions for various LeetCode problems. Each prob
 - [383. Ransom Note](./383-ransom-note/)
 - [389. Find the Difference](./389-find-the-difference/)
 - [401. Binary Watch](./401-binary-watch/)
+- [405. Convert a Number to Hexadecimal](./405-convert-a-number-to-hexadecimal/)
 - [476. Number Complement](./476-number-complement/)
 - [592. Fraction Addition and Subtraction](./592-fraction-addition-subtraction/)
 - [624. Maximum Distance in Arrays](./624-maximum-distance-in-arrays/)
