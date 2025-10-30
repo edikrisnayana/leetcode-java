@@ -45,6 +45,7 @@ This repository contains Java solutions for various LeetCode problems. Each prob
 - [1508. Range Sum of Sorted Subarray Sums](./1508-range-sum-of-sorted-subarray-sums/)
 - [1509. Minimum Difference Between Largest and Smallest Value in Three Moves](./1509-minimum-difference-between-largest-and-smallest-value-in-three-moves/)
 - [1518. Water Bottles](./1518-water-bottles/)
+- [1526. Minimum Number of Increments on Subarrays to Form a Target Array](./1526-minimum-number-of-increaments-on-subarrays-to-form-a-target-array/)
 - [1550. Three Consecutive Odds](./1550-three-consecutive-odds/)
 - [1552. Magnetic Force Between Two Balls](./1552-magnetic-force-between-two-balls/)
 - [1598. Crawler Log Folder](./1598-crawler-log-folder/)
