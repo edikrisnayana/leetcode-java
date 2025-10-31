@@ -79,6 +79,7 @@ This repository contains Java solutions for various LeetCode problems. Each prob
 - [2807. Insert Greatest Common Divisors in Linked List](./2807-insert-greatest-common-divisors-in-linked-list/)
 - [3016. Minimum Number of Pushes to Type Word II](./3016-minimum-number-of-pushes-to-type-word-ii/)
 - [3217. Delete Nodes From Linked List Present in Array](./3217-delete-nodes-from-linked-list-present-in-array/)
+- [3289. The Two Sneaky Numbers of Digitville](./3289-the-two-sneaky-numbers-of-digitville/)
 - [3354. Make Array Elements Equal to Zero](./3354-make-array-elements-equal-to-zero/)
 - [3370. Smallest Number With All Set Bits](./3370-smallest-number-with-all-set-bits/)
 - [3461. Check if Digits Are Equal in String After Operations I](./3461-check-if-digits-are-equal-in-string-after-operations-i/)
