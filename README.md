@@ -68,6 +68,7 @@ This repository contains Java solutions for various LeetCode problems. Each prob
 - [2191. Sort the Jumbled Numbers](./2191-sort-the-jumbled-numbers/)
 - [2192. All Ancestors of a Node in a Directed Acyclic Graph](./2192-all-ancestors-of-a-node-in-a-directed-acyclic/)
 - [2220. Minimum Bit Flips to Convert Number](./2220-minimum-bit-flips-to-convert-number/)
+- [2257. Count Unguarded Cells in the Grid](./2257-count-unguarded-cells-in-the-grid/)
 - [2273. Find Resultant Array After Removing Anagrams](./2273-find-resultant-array-after-removing-anagrams/)
 - [2285. Maximum Total Importance of Roads](./2285-maximum-total-importance-of-roads/)
 - [2326. Spiral Matrix IV](./2326-spiral-matrix-iv/)
